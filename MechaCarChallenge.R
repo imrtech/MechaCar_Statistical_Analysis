@@ -1,3 +1,4 @@
+#Deliverable 1
 #load dplyr
 library(dplyr)
 
@@ -10,3 +11,13 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 #summary
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar)) 
+
+#Deliverable 2
+#read file
+Suspension <- read.csv(file='resources/Suspension_coil.csv',check.names=F,stringsAsFactors = F)
+
+#total summary
+total_summary <- Suspension %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI)) 
+
+#lot summary
+lot_summary <- Suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),StDev=sd(PSI))
