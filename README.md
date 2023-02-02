@@ -13,3 +13,10 @@ The slope of the linear model is not zero. This is observed by the slope coeffic
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear model has an r-squared value of 0.7149, which means that 71% of all mpg of MechaCar prototypes can be effectively predicted by this model. 
+
+![suspension coil](resources/images/suspension_coil_total_summary'.png)
+
+
+![lot summary](resources/images/lot_summary.png)
+
+
