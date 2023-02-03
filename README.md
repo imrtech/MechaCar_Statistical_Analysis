@@ -26,6 +26,20 @@ We observe from the total summary that the variance of lot 1 and lot 2 does fall
 
 ## T-Tests on Suspension Coils
 
-![lot summary](resources/images/t_test.png)
+![t test](resources/images/t_test.png)
 
-![lot summary](resources/images/t_test_all_lots.png)
+![t test lots](resources/images/t_test_all_lots.png)
+
+We observe from the first t-test, the mean of the sample is 1498.78 and is not statistically different from the population mean of 1500 PSI and has a p-value of 0.06.
+
+After we performed the t-tests on the individual lots, we observe that both Lot 1 and Lot 2 have the same mean of 1500. The difference is in their p-values. Lot 1 has a p-value 1 and Lot 2 has a p-value 0.6. Lot 1 and Lot 2 are not statistically different from the population mean. However, Lot 3 with mean of 1496.14 and a p-value of 0.04 does have a mean which is statistically different from the population mean. Based on the previous lot summary and the t tests, Lot 3 raises some flags about production and will require further investigation.
+
+## Study Design: MechaCar vs Competition
+
+What metric or metrics are you going to test?
+
+What is the null hypothesis or alternative hypothesis?
+
+What statistical test would you use to test the hypothesis? And why?
+
+What data is needed to run the statistical test?
