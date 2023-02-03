@@ -36,10 +36,14 @@ After we performed the t-tests on the individual lots, we observe that both Lot 
 
 ## Study Design: MechaCar vs Competition
 
-What metric or metrics are you going to test?
+To gain meaningful insight on how MechaCar performs against the competition an extensive study would need to be performed. 
+This study would include the following metrics that would be of interest to consumers and provide the necessary information they need to make an informed decision on their purchase:
+- MPG
+- Maintenance Cost
+- Safety Rating
+- Current Price
+- Engine Type
 
-What is the null hypothesis or alternative hypothesis?
+Our null hypothesis would be that there are no significant differences in these metrics compared to the competition and the alternative  hypothesis would be that there are significant differences in these metrics and the MechaCar. 
 
-What statistical test would you use to test the hypothesis? And why?
-
-What data is needed to run the statistical test?
+To test our hypothesis we would need to collect data for these metrics from the competiton and the MechaCar and perform a t-test. The t-test would be comparing the population of the competition.
